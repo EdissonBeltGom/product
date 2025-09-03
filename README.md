@@ -93,7 +93,7 @@ data/
 
 1. **Clonar el repositorio**
 ```bash
-git clone [<repository-url>](https://github.com/EdissonBeltGom/product)
+git clone https://github.com/EdissonBeltGom/product
 cd product
 ```
 
@@ -108,7 +108,7 @@ mvn spring-boot:run
 ```
 
 4. **Acceder a la aplicación**
-- API REST: http://localhost:8090
+- API REST: http://localhost:8090/ProductsApi/
 - **Swagger UI**: http://localhost:8090/ProductsApi/swagger-ui/index.html
 
 
