@@ -65,7 +65,7 @@ src/main/java/com/item/product/
 │   │   └── ProductRepository.java
 │   └── service/
 ├── application/
-│   ├── use_case/
+│   ├── usecase/
 │   │   └── GetProductUseCase.java
 │   └── dto/
 │       └── ProductResponseDto.java
@@ -108,9 +108,9 @@ mvn spring-boot:run
 ```
 
 4. **Acceder a la aplicación**
-- API REST: http://localhost:8080
-- **Swagger UI**: http://localhost:8080/swagger-ui.html
-- **OpenAPI JSON**: http://localhost:8080/api-docs
+- API REST: http://localhost:8090
+- **Swagger UI**: http://localhost:8090/ProductsApi/swagger-ui/index.html
+
 
 ## 📚 API Endpoints
 
@@ -118,45 +118,42 @@ mvn spring-boot:run
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| GET | `/api/v1/products` | Obtener todos los productos |
-| GET | `/api/v1/products/{id}` | Obtener producto por ID |
-| GET | `/api/v1/products/category/{category}` | Obtener productos por categoría |
-| GET | `/api/v1/products/available` | Obtener productos disponibles |
-| GET | `/api/v1/products/search?name={name}` | Buscar productos por nombre |
+| GET | `/api/products` | Obtener todos los productos |
+| GET | `/api/products/{id}` | Obtener producto por ID |
+| GET | `/api/products/{id}/similar` | Buscar productos similares por categoría del producto consultado |
+| GET | `/api/products/category/{category}` | Obtener productos por categoría |
+
+
 
 ### Ejemplo de uso
 
 #### Obtener todos los productos
 ```bash
-curl http://localhost:8080/api/v1/products
+curl http://localhost:8090/api/products
 ```
 
 #### Obtener un producto por ID
 ```bash
-curl http://localhost:8080/api/v1/products/1
+curl http://localhost:8090/api/products/1
 ```
 
 #### Obtener productos por categoría
 ```bash
-curl http://localhost:8080/api/v1/products/category/Electrónicos
+curl http://localhost:8090/api/products/category/Electrónicos
 ```
 
-#### Obtener productos disponibles
+#### Obtener productos similares
 ```bash
-curl http://localhost:8080/api/v1/products/available
+curl http://localhost:8090/api/1/similar
 ```
 
-#### Buscar productos por nombre
-```bash
-curl "http://localhost:8080/api/v1/products/search?name=Laptop"
-```
 
 ## 🔍 Swagger UI
 
 La aplicación incluye **Swagger UI** para documentación interactiva de la API:
 
 ### Acceso a Swagger
-- **URL**: http://localhost:8080/swagger-ui.html
+- **URL**: http://localhost:8090/ProductsApi/swagger-ui/index.html
 - **Descripción**: Interfaz web interactiva para probar todos los endpoints de consulta
 - **Características**:
   - Documentación completa de todos los endpoints de consulta
@@ -187,16 +184,38 @@ La aplicación utiliza **persistencia en archivos JSON** localizados en `./data/
 ```json
 [
   {
-    "id": 1,
-    "name": "Laptop Gaming Pro",
-    "description": "Laptop para gaming de alto rendimiento",
-    "price": 1299.99,
-    "stock": 15,
-    "category": "Electrónicos",
-    "brand": "GamingPro",
-    "createdAt": "2024-01-15T10:30:00",
-    "updatedAt": "2024-01-15T10:30:00"
-  }
+  "id": "1",
+  "title": "Laptop Gaming Pro",
+  "price": 1299.99,
+  "currency": "USD",
+  "description": "Laptop para gaming de alto rendimiento con las últimas tecnologías",
+  "images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg"
+  ],
+  "condition": "Nuevo",
+  "stock": 15,
+  "category": "Electrónicos",
+  "seller": {
+    "id": "seller123",
+    "name": "TechStore",
+    "rating": 4.5
+  },
+  "specifications": [
+    {
+      "name": "Procesador",
+      "value": "Intel i7"
+    },
+    {
+      "name": "RAM",
+      "value": "16GB"
+    }
+  ],
+  "brand": "GamingPro",
+  "createdAt": "2025-09-03T19:28:55.870Z",
+  "updatedAt": "2025-09-03T19:28:55.870Z",
+  "available": true
+}
 ]
 ```
 
@@ -212,7 +231,7 @@ mvn test
 
 La configuración se encuentra en `src/main/resources/application.properties`:
 
-- **Puerto**: 8080
+- **Puerto**: 8090
 - **Archivo de datos**: `./data/products.json`
 - **Swagger UI**: `/swagger-ui.html`
 - **OpenAPI JSON**: `/api-docs`
@@ -251,15 +270,3 @@ La configuración se encuentra en `src/main/resources/application.properties`:
 - **Respuestas consistentes**: Formato JSON estandarizado
 - **Documentación completa**: Swagger UI con ejemplos
 - **Arquitectura limpia**: Separación clara de responsabilidades
-
-## 🤝 Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
