@@ -1,0 +1,2464 @@
+[
+  {
+    "id": "1",
+    "title": "Laptop Gaming Pro",
+    "description": "Laptop para gaming de alto rendimiento con RTX 4070 y las últimas tecnologías de refrigeración",
+    "price": 1299.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/laptop-gaming-1.jpg",
+      "https://example.com/laptop-gaming-2.jpg",
+      "https://example.com/laptop-gaming-3.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 15,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller123",
+      "name": "TechStore",
+      "rating": 4.8,
+      "reviews": 1250
+    },
+    "specifications": [
+      {
+        "name": "Procesador",
+        "value": "Intel Core i7-13700H"
+      },
+      {
+        "name": "RAM",
+        "value": "16GB DDR5"
+      },
+      {
+        "name": "Almacenamiento",
+        "value": "512GB SSD NVMe"
+      },
+      {
+        "name": "Tarjeta Gráfica",
+        "value": "NVIDIA RTX 4070 8GB"
+      },
+      {
+        "name": "Pantalla",
+        "value": "15.6\" Full HD 144Hz"
+      }
+    ],
+    "brand": "GamingPro",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "2",
+    "title": "Smartphone Galaxy S24",
+    "description": "Smartphone de última generación con IA integrada y cámara profesional",
+    "price": 899.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/galaxy-s24-1.jpg",
+      "https://example.com/galaxy-s24-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 25,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller456",
+      "name": "MobileWorld",
+      "rating": 4.6,
+      "reviews": 890
+    },
+    "specifications": [
+      {
+        "name": "Procesador",
+        "value": "Exynos 2400"
+      },
+      {
+        "name": "RAM",
+        "value": "8GB"
+      },
+      {
+        "name": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "name": "Pantalla",
+        "value": "6.2\" Dynamic AMOLED 2X"
+      },
+      {
+        "name": "Cámara",
+        "value": "50MP + 12MP + 10MP"
+      }
+    ],
+    "brand": "Samsung",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "3",
+    "title": "Auriculares Bluetooth Premium",
+    "description": "Auriculares inalámbricos con cancelación de ruido activa y sonido Hi-Fi",
+    "price": 199.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/headphones-1.jpg",
+      "https://example.com/headphones-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 30,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller789",
+      "name": "AudioTech",
+      "rating": 4.7,
+      "reviews": 567
+    },
+    "specifications": [
+      {
+        "name": "Tecnología",
+        "value": "Bluetooth 5.2"
+      },
+      {
+        "name": "Batería",
+        "value": "Hasta 30 horas"
+      },
+      {
+        "name": "Cancelación de Ruido",
+        "value": "ANC Activo"
+      },
+      {
+        "name": "Conectividad",
+        "value": "USB-C, Jack 3.5mm"
+      }
+    ],
+    "brand": "AudioTech",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "4",
+    "title": "Mesa de Escritorio Ergonómica",
+    "description": "Mesa ergonómica para oficina en casa con altura ajustable y cable management",
+    "price": 299.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/desk-1.jpg",
+      "https://example.com/desk-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 8,
+    "category": "Muebles",
+    "seller": {
+      "id": "seller101",
+      "name": "OfficeMax",
+      "rating": 4.5,
+      "reviews": 234
+    },
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Madera de roble"
+      },
+      {
+        "name": "Dimensiones",
+        "value": "120cm x 60cm x 75cm"
+      },
+      {
+        "name": "Altura",
+        "value": "Ajustable 65-85cm"
+      },
+      {
+        "name": "Peso Máximo",
+        "value": "100kg"
+      }
+    ],
+    "brand": "OfficeMax",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "5",
+    "title": "Cafetera Automática Profesional",
+    "description": "Cafetera automática con molinillo integrado y múltiples opciones de preparación",
+    "price": 149.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/coffee-maker-1.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 12,
+    "category": "Hogar",
+    "seller": {
+      "id": "seller202",
+      "name": "CoffeeMaster",
+      "rating": 4.9,
+      "reviews": 445
+    },
+    "specifications": [
+      {
+        "name": "Capacidad",
+        "value": "1.8L"
+      },
+      {
+        "name": "Potencia",
+        "value": "1500W"
+      },
+      {
+        "name": "Tipo de Café",
+        "value": "Espresso, Americano, Cappuccino"
+      },
+      {
+        "name": "Molinillo",
+        "value": "Integrado con 5 niveles"
+      }
+    ],
+    "brand": "CoffeeMaster",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "6",
+    "title": "iPhone 15 Pro Max",
+    "description": "El iPhone más avanzado con chip A17 Pro y cámara de 48MP",
+    "price": 1199.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/iphone15-1.jpg",
+      "https://example.com/iphone15-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 20,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller303",
+      "name": "AppleStore",
+      "rating": 4.9,
+      "reviews": 2100
+    },
+    "specifications": [
+      {
+        "name": "Procesador",
+        "value": "A17 Pro"
+      },
+      {
+        "name": "RAM",
+        "value": "8GB"
+      },
+      {
+        "name": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "name": "Pantalla",
+        "value": "6.7\" Super Retina XDR"
+      },
+      {
+        "name": "Cámara",
+        "value": "48MP + 12MP + 12MP"
+      }
+    ],
+    "brand": "Apple",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "7",
+    "title": "Monitor Gaming 27\" 4K",
+    "description": "Monitor gaming de 27 pulgadas con resolución 4K y 144Hz",
+    "price": 599.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/monitor-1.jpg",
+      "https://example.com/monitor-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 18,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller404",
+      "name": "GamingGear",
+      "rating": 4.7,
+      "reviews": 756
+    },
+    "specifications": [
+      {
+        "name": "Resolución",
+        "value": "3840x2160 4K"
+      },
+      {
+        "name": "Tasa de Refresco",
+        "value": "144Hz"
+      },
+      {
+        "name": "Tiempo de Respuesta",
+        "value": "1ms"
+      },
+      {
+        "name": "Panel",
+        "value": "IPS"
+      },
+      {
+        "name": "Conectores",
+        "value": "HDMI 2.1, DisplayPort 1.4"
+      }
+    ],
+    "brand": "GamingGear",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "8",
+    "title": "Silla Gaming Ergonómica",
+    "description": "Silla gaming con soporte lumbar y reposabrazos ajustables",
+    "price": 249.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/chair-1.jpg",
+      "https://example.com/chair-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 22,
+    "category": "Muebles",
+    "seller": {
+      "id": "seller505",
+      "name": "ComfortZone",
+      "rating": 4.6,
+      "reviews": 432
+    },
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Cuero sintético"
+      },
+      {
+        "name": "Peso Máximo",
+        "value": "150kg"
+      },
+      {
+        "name": "Altura",
+        "value": "Ajustable 110-130cm"
+      },
+      {
+        "name": "Reposabrazos",
+        "value": "4D Ajustables"
+      },
+      {
+        "name": "Soporte Lumbar",
+        "value": "Ajustable"
+      }
+    ],
+    "brand": "ComfortZone",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "9",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado mecánico con switches Cherry MX y iluminación RGB personalizable",
+    "price": 129.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/keyboard-1.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 35,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller606",
+      "name": "KeyboardPro",
+      "rating": 4.8,
+      "reviews": 678
+    },
+    "specifications": [
+      {
+        "name": "Switches",
+        "value": "Cherry MX Red"
+      },
+      {
+        "name": "Iluminación",
+        "value": "RGB 16.8M colores"
+      },
+      {
+        "name": "Layout",
+        "value": "TKL (87 teclas)"
+      },
+      {
+        "name": "Conectividad",
+        "value": "USB-C"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio anodizado"
+      }
+    ],
+    "brand": "KeyboardPro",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "10",
+    "title": "Mouse Gaming Inalámbrico",
+    "description": "Mouse gaming inalámbrico con sensor de 25,600 DPI y 70 horas de batería",
+    "price": 89.99,
+    "currency": "USD",
+    "images": [
+      "https://example.com/mouse-1.jpg",
+      "https://example.com/mouse-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 40,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller707",
+      "name": "MouseMaster",
+      "rating": 4.7,
+      "reviews": 543
+    },
+    "specifications": [
+      {
+        "name": "Sensor",
+        "value": "25,600 DPI"
+      },
+      {
+        "name": "Batería",
+        "value": "70 horas"
+      },
+      {
+        "name": "Botones",
+        "value": "11 programables"
+      },
+      {
+        "name": "Peso",
+        "value": "95g"
+      },
+      {
+        "name": "Conectividad",
+        "value": "2.4GHz + Bluetooth"
+      }
+    ],
+    "brand": "MouseMaster",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-15T10:30:00"
+  },
+  {
+    "id": "11",
+    "title": "Puzzle Playmobil 1000 Piezas",
+    "description": "Producto Playmobil con diseño moderno y funcional",
+    "price": 34.27,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-011-1.jpg",
+      "https://example.com/product-011-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 98,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller011",
+      "name": "MouseMaster",
+      "rating": 4.9,
+      "reviews": 1316
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Playmobil"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-011"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Playmobil",
+    "createdAt": "2024-01-24T10:30:00",
+    "updatedAt": "2024-01-24T10:30:00"
+  },
+  {
+    "id": "12",
+    "title": "Yoga Mat Spalding Premium",
+    "description": "Producto de alta calidad de la marca Spalding",
+    "price": 117.89,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-012-1.jpg",
+      "https://example.com/product-012-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 91,
+    "category": "Deportes",
+    "seller": {
+      "id": "seller012",
+      "name": "TechStore",
+      "rating": 4.9,
+      "reviews": 953
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Spalding"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-012"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Spalding",
+    "createdAt": "2024-01-29T10:30:00",
+    "updatedAt": "2024-02-05T10:30:00"
+  },
+  {
+    "id": "13",
+    "title": "Batería Shell Automotriz",
+    "description": "Producto premium Shell para uso profesional",
+    "price": 92.66,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-013-1.jpg",
+      "https://example.com/product-013-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 54,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller013",
+      "name": "GamingGear",
+      "rating": 4.7,
+      "reviews": 281
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Shell"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-013"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Vidrio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Shell",
+    "createdAt": "2024-02-12T10:30:00",
+    "updatedAt": "2024-02-12T10:30:00"
+  },
+  {
+    "id": "14",
+    "title": "Mouse Logitech Gaming",
+    "description": "Producto de alta calidad de la marca Logitech",
+    "price": 60.06,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-014-1.jpg",
+      "https://example.com/product-014-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 50,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller014",
+      "name": "MouseMaster",
+      "rating": 4.8,
+      "reviews": 2128
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Logitech"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-014"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Logitech",
+    "createdAt": "2024-02-08T10:30:00",
+    "updatedAt": "2024-02-13T10:30:00"
+  },
+  {
+    "id": "15",
+    "title": "Carro Melissa & Doug Control Remoto",
+    "description": "Producto de alta calidad de la marca Melissa & Doug",
+    "price": 60.21,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-015-1.jpg",
+      "https://example.com/product-015-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 41,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller015",
+      "name": "ComfortZone",
+      "rating": 4.6,
+      "reviews": 1062
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Melissa & Doug"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-015"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Melissa & Doug",
+    "createdAt": "2024-02-08T10:30:00",
+    "updatedAt": "2024-02-08T10:30:00"
+  },
+  {
+    "id": "16",
+    "title": "Camiseta Nike Deportiva",
+    "description": "Producto Nike con tecnología avanzada",
+    "price": 27.92,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-016-1.jpg",
+      "https://example.com/product-016-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 94,
+    "category": "Ropa",
+    "seller": {
+      "id": "seller016",
+      "name": "AudioTech",
+      "rating": 4.6,
+      "reviews": 810
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Nike"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-016"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Nike",
+    "createdAt": "2024-02-08T10:30:00",
+    "updatedAt": "2024-02-13T10:30:00"
+  },
+  {
+    "id": "17",
+    "title": "Mouse Sennheiser Gaming",
+    "description": "Producto de alta calidad de la marca Sennheiser",
+    "price": 47.27,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-017-1.jpg",
+      "https://example.com/product-017-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 58,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller017",
+      "name": "MobileWorld",
+      "rating": 4.3,
+      "reviews": 1634
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Sennheiser"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-017"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Sennheiser",
+    "createdAt": "2024-02-06T10:30:00",
+    "updatedAt": "2024-02-08T10:30:00"
+  },
+  {
+    "id": "18",
+    "title": "Pantalón Adidas Casual",
+    "description": "Producto de alta calidad de la marca Adidas",
+    "price": 81.56,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-018-1.jpg",
+      "https://example.com/product-018-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 88,
+    "category": "Ropa",
+    "seller": {
+      "id": "seller018",
+      "name": "CoffeeMaster",
+      "rating": 4.5,
+      "reviews": 1703
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Adidas"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-018"
+      },
+      {
+        "name": "Color",
+        "value": "Verde"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Adidas",
+    "createdAt": "2024-02-08T10:30:00",
+    "updatedAt": "2024-02-10T10:30:00"
+  },
+  {
+    "id": "19",
+    "title": "Laptop Samsung Ultra",
+    "description": "Producto de alta calidad de la marca Samsung",
+    "price": 1626.75,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-019-1.jpg",
+      "https://example.com/product-019-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 17,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller019",
+      "name": "GamingGear",
+      "rating": 4.8,
+      "reviews": 260
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-019"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Tela"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Samsung",
+    "createdAt": "2024-02-03T10:30:00",
+    "updatedAt": "2024-02-06T10:30:00"
+  },
+  {
+    "id": "20",
+    "title": "Aspiradora KitchenAid Robot",
+    "description": "Producto de alta calidad de la marca KitchenAid",
+    "price": 287.51,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-020-1.jpg",
+      "https://example.com/product-020-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 14,
+    "category": "Hogar",
+    "seller": {
+      "id": "seller020",
+      "name": "TechStore",
+      "rating": 4.8,
+      "reviews": 506
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "KitchenAid"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-020"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Vidrio"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "KitchenAid",
+    "createdAt": "2024-01-28T10:30:00",
+    "updatedAt": "2024-02-01T10:30:00"
+  },
+  {
+    "id": "21",
+    "title": "Camiseta H&M Deportiva",
+    "description": "Producto de alta calidad de la marca H&M",
+    "price": 28.08,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-021-1.jpg",
+      "https://example.com/product-021-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 80,
+    "category": "Ropa",
+    "seller": {
+      "id": "seller021",
+      "name": "AudioTech",
+      "rating": 4.4,
+      "reviews": 1494
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "H&M"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-021"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "H&M",
+    "createdAt": "2024-01-28T10:30:00",
+    "updatedAt": "2024-02-06T10:30:00"
+  },
+  {
+    "id": "22",
+    "title": "Maceta Husqvarna Decorativa",
+    "description": "Excelente producto Husqvarna con las mejores características",
+    "price": 21.23,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-022-1.jpg",
+      "https://example.com/product-022-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 138,
+    "category": "Jardín",
+    "seller": {
+      "id": "seller022",
+      "name": "GamingGear",
+      "rating": 4.5,
+      "reviews": 936
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Husqvarna"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-022"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Husqvarna",
+    "createdAt": "2024-02-10T10:30:00",
+    "updatedAt": "2024-02-16T10:30:00"
+  },
+  {
+    "id": "23",
+    "title": "Maceta John Deere Decorativa",
+    "description": "Producto premium John Deere para uso profesional",
+    "price": 27.84,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-023-1.jpg",
+      "https://example.com/product-023-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 101,
+    "category": "Jardín",
+    "seller": {
+      "id": "seller023",
+      "name": "MouseMaster",
+      "rating": 4.3,
+      "reviews": 270
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "John Deere"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-023"
+      },
+      {
+        "name": "Color",
+        "value": "Verde"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "John Deere",
+    "createdAt": "2024-01-29T10:30:00",
+    "updatedAt": "2024-02-07T10:30:00"
+  },
+  {
+    "id": "24",
+    "title": "Teclado Bose RGB",
+    "description": "Producto de alta calidad de la marca Bose",
+    "price": 155.3,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-024-1.jpg",
+      "https://example.com/product-024-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 50,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller024",
+      "name": "AudioTech",
+      "rating": 4.0,
+      "reviews": 233
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Bose"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-024"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Bose",
+    "createdAt": "2024-01-29T10:30:00",
+    "updatedAt": "2024-02-05T10:30:00"
+  },
+  {
+    "id": "25",
+    "title": "Set Playmobil Constructor",
+    "description": "Producto Playmobil con diseño moderno y funcional",
+    "price": 81.38,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-025-1.jpg",
+      "https://example.com/product-025-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 51,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller025",
+      "name": "ComfortZone",
+      "rating": 4.5,
+      "reviews": 1444
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Playmobil"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-025"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Playmobil",
+    "createdAt": "2024-02-01T10:30:00",
+    "updatedAt": "2024-02-07T10:30:00"
+  },
+  {
+    "id": "26",
+    "title": "Bicicleta Wilson Mountain",
+    "description": "Producto Wilson con diseño moderno y funcional",
+    "price": 1040.23,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-026-1.jpg",
+      "https://example.com/product-026-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 14,
+    "category": "Deportes",
+    "seller": {
+      "id": "seller026",
+      "name": "AudioTech",
+      "rating": 4.8,
+      "reviews": 2028
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Wilson"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-026"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Wilson",
+    "createdAt": "2024-01-15T10:30:00",
+    "updatedAt": "2024-01-24T10:30:00"
+  },
+  {
+    "id": "27",
+    "title": "Revista HarperCollins Mensual",
+    "description": "Producto premium HarperCollins para uso profesional",
+    "price": 19.53,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-027-1.jpg",
+      "https://example.com/product-027-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 202,
+    "category": "Libros",
+    "seller": {
+      "id": "seller027",
+      "name": "GamingGear",
+      "rating": 4.0,
+      "reviews": 1519
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "HarperCollins"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-027"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "HarperCollins",
+    "createdAt": "2024-02-04T10:30:00",
+    "updatedAt": "2024-02-14T10:30:00"
+  },
+  {
+    "id": "28",
+    "title": "Set Hasbro Constructor",
+    "description": "Producto Hasbro con tecnología avanzada",
+    "price": 70.74,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-028-1.jpg",
+      "https://example.com/product-028-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 84,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller028",
+      "name": "CoffeeMaster",
+      "rating": 4.5,
+      "reviews": 219
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Hasbro"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-028"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Hasbro",
+    "createdAt": "2024-01-28T10:30:00",
+    "updatedAt": "2024-02-06T10:30:00"
+  },
+  {
+    "id": "29",
+    "title": "Yoga Mat Under Armour Premium",
+    "description": "Producto Under Armour con diseño moderno y funcional",
+    "price": 103.38,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-029-1.jpg",
+      "https://example.com/product-029-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 87,
+    "category": "Deportes",
+    "seller": {
+      "id": "seller029",
+      "name": "CoffeeMaster",
+      "rating": 4.4,
+      "reviews": 366
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Under Armour"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-029"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Under Armour",
+    "createdAt": "2024-01-20T10:30:00",
+    "updatedAt": "2024-01-27T10:30:00"
+  },
+  {
+    "id": "30",
+    "title": "Neumático Shell Todo Terreno",
+    "description": "Producto premium Shell para uso profesional",
+    "price": 253.19,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-030-1.jpg",
+      "https://example.com/product-030-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 40,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller030",
+      "name": "OfficeMax",
+      "rating": 4.6,
+      "reviews": 1554
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Shell"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-030"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Tela"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Shell",
+    "createdAt": "2024-02-02T10:30:00",
+    "updatedAt": "2024-02-04T10:30:00"
+  },
+  {
+    "id": "31",
+    "title": "Laptop Acer Ultra",
+    "description": "Producto Acer con tecnología avanzada",
+    "price": 1232.58,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-031-1.jpg",
+      "https://example.com/product-031-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 9,
+    "category": "Electrónicos",
+    "seller": {
+      "id": "seller031",
+      "name": "OfficeMax",
+      "rating": 4.5,
+      "reviews": 2316
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Acer"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-031"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Acer",
+    "createdAt": "2024-01-18T10:30:00",
+    "updatedAt": "2024-01-24T10:30:00"
+  },
+  {
+    "id": "32",
+    "title": "Pelota Adidas Oficial",
+    "description": "Producto Adidas con diseño moderno y funcional",
+    "price": 45.75,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-032-1.jpg",
+      "https://example.com/product-032-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 91,
+    "category": "Deportes",
+    "seller": {
+      "id": "seller032",
+      "name": "AudioTech",
+      "rating": 4.1,
+      "reviews": 2332
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Adidas"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-032"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Adidas",
+    "createdAt": "2024-01-18T10:30:00",
+    "updatedAt": "2024-01-19T10:30:00"
+  },
+  {
+    "id": "33",
+    "title": "Libro Random House Infantil",
+    "description": "Producto premium Random House para uso profesional",
+    "price": 19.73,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-033-1.jpg",
+      "https://example.com/product-033-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 174,
+    "category": "Libros",
+    "seller": {
+      "id": "seller033",
+      "name": "ComfortZone",
+      "rating": 4.4,
+      "reviews": 1181
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Random House"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-033"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Tela"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Random House",
+    "createdAt": "2024-02-01T10:30:00",
+    "updatedAt": "2024-02-04T10:30:00"
+  },
+  {
+    "id": "34",
+    "title": "Auriculares Logitech Pro",
+    "description": "Excelente producto Logitech con las mejores características",
+    "price": 199.03,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-034-1.jpg",
+      "https://example.com/product-034-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 26,
+    "category": "Accesorios",
+    "seller": {
+      "id": "seller034",
+      "name": "CoffeeMaster",
+      "rating": 4.1,
+      "reviews": 816
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Logitech"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-034"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Logitech",
+    "createdAt": "2024-01-23T10:30:00",
+    "updatedAt": "2024-01-25T10:30:00"
+  },
+  {
+    "id": "35",
+    "title": "Novela Macmillan Bestseller",
+    "description": "Producto premium Macmillan para uso profesional",
+    "price": 34.88,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-035-1.jpg",
+      "https://example.com/product-035-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 297,
+    "category": "Libros",
+    "seller": {
+      "id": "seller035",
+      "name": "KeyboardPro",
+      "rating": 4.1,
+      "reviews": 2166
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Macmillan"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-035"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Macmillan",
+    "createdAt": "2024-01-18T10:30:00",
+    "updatedAt": "2024-01-26T10:30:00"
+  },
+  {
+    "id": "36",
+    "title": "Fertilizante Black & Decker Natural",
+    "description": "Producto Black & Decker con tecnología avanzada",
+    "price": 29.67,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-036-1.jpg",
+      "https://example.com/product-036-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 103,
+    "category": "Jardín",
+    "seller": {
+      "id": "seller036",
+      "name": "ComfortZone",
+      "rating": 4.2,
+      "reviews": 2330
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Black & Decker"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-036"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Black & Decker",
+    "createdAt": "2024-01-22T10:30:00",
+    "updatedAt": "2024-02-01T10:30:00"
+  },
+  {
+    "id": "37",
+    "title": "Filtro Fram Aire",
+    "description": "Producto de alta calidad de la marca Fram",
+    "price": 30.92,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-037-1.jpg",
+      "https://example.com/product-037-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 204,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller037",
+      "name": "MouseMaster",
+      "rating": 4.5,
+      "reviews": 550
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Fram"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-037"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Tela"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Fram",
+    "createdAt": "2024-02-13T10:30:00",
+    "updatedAt": "2024-02-20T10:30:00"
+  },
+  {
+    "id": "38",
+    "title": "Libro Simon & Schuster Técnico",
+    "description": "Producto Simon & Schuster con tecnología avanzada",
+    "price": 28.97,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-038-1.jpg",
+      "https://example.com/product-038-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 78,
+    "category": "Libros",
+    "seller": {
+      "id": "seller038",
+      "name": "MouseMaster",
+      "rating": 4.9,
+      "reviews": 910
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Simon & Schuster"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-038"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "Simon & Schuster",
+    "createdAt": "2024-01-19T10:30:00",
+    "updatedAt": "2024-01-19T10:30:00"
+  },
+  {
+    "id": "39",
+    "title": "Libro HarperCollins Infantil",
+    "description": "Producto de alta calidad de la marca HarperCollins",
+    "price": 14.39,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-039-1.jpg",
+      "https://example.com/product-039-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 97,
+    "category": "Libros",
+    "seller": {
+      "id": "seller039",
+      "name": "OfficeMax",
+      "rating": 4.4,
+      "reviews": 923
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "HarperCollins"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-039"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "HarperCollins",
+    "createdAt": "2024-01-27T10:30:00",
+    "updatedAt": "2024-01-31T10:30:00"
+  },
+  {
+    "id": "40",
+    "title": "Cama Pottery Barn King",
+    "description": "Producto Pottery Barn con tecnología avanzada",
+    "price": 1871.87,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-040-1.jpg",
+      "https://example.com/product-040-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 11,
+    "category": "Muebles",
+    "seller": {
+      "id": "seller040",
+      "name": "CoffeeMaster",
+      "rating": 4.1,
+      "reviews": 2041
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Pottery Barn"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-040"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Pottery Barn",
+    "createdAt": "2024-02-04T10:30:00",
+    "updatedAt": "2024-02-11T10:30:00"
+  },
+  {
+    "id": "41",
+    "title": "Neumático Bosch Todo Terreno",
+    "description": "Excelente producto Bosch con las mejores características",
+    "price": 215.71,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-041-1.jpg",
+      "https://example.com/product-041-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 45,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller041",
+      "name": "MobileWorld",
+      "rating": 4.2,
+      "reviews": 1509
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Bosch"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-041"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Bosch",
+    "createdAt": "2024-02-01T10:30:00",
+    "updatedAt": "2024-02-08T10:30:00"
+  },
+  {
+    "id": "42",
+    "title": "Bicicleta Wilson Mountain",
+    "description": "Producto premium Wilson para uso profesional",
+    "price": 745.18,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-042-1.jpg",
+      "https://example.com/product-042-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 25,
+    "category": "Deportes",
+    "seller": {
+      "id": "seller042",
+      "name": "GamingGear",
+      "rating": 4.5,
+      "reviews": 1248
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Wilson"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-042"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Wilson",
+    "createdAt": "2024-02-08T10:30:00",
+    "updatedAt": "2024-02-16T10:30:00"
+  },
+  {
+    "id": "43",
+    "title": "Licuadora Ninja Profesional",
+    "description": "Excelente producto Ninja con las mejores características",
+    "price": 127.79,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-043-1.jpg",
+      "https://example.com/product-043-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 44,
+    "category": "Hogar",
+    "seller": {
+      "id": "seller043",
+      "name": "ComfortZone",
+      "rating": 4.7,
+      "reviews": 1681
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Ninja"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-043"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Ninja",
+    "createdAt": "2024-02-14T10:30:00",
+    "updatedAt": "2024-02-17T10:30:00"
+  },
+  {
+    "id": "44",
+    "title": "Filtro Fram Aire",
+    "description": "Producto de alta calidad de la marca Fram",
+    "price": 38.74,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-044-1.jpg",
+      "https://example.com/product-044-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 326,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller044",
+      "name": "MouseMaster",
+      "rating": 4.7,
+      "reviews": 596
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Fram"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-044"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Fram",
+    "createdAt": "2024-02-10T10:30:00",
+    "updatedAt": "2024-02-17T10:30:00"
+  },
+  {
+    "id": "45",
+    "title": "Puzzle LEGO 1000 Piezas",
+    "description": "Producto de alta calidad de la marca LEGO",
+    "price": 13.37,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-045-1.jpg",
+      "https://example.com/product-045-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 82,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller045",
+      "name": "MouseMaster",
+      "rating": 4.2,
+      "reviews": 2005
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "LEGO"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-045"
+      },
+      {
+        "name": "Color",
+        "value": "Azul"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "LEGO",
+    "createdAt": "2024-02-09T10:30:00",
+    "updatedAt": "2024-02-18T10:30:00"
+  },
+  {
+    "id": "46",
+    "title": "Cafetera Cuisinart Express",
+    "description": "Producto premium Cuisinart para uso profesional",
+    "price": 367.78,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-046-1.jpg",
+      "https://example.com/product-046-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 44,
+    "category": "Hogar",
+    "seller": {
+      "id": "seller046",
+      "name": "KeyboardPro",
+      "rating": 4.4,
+      "reviews": 1030
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Cuisinart"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-046"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Cuisinart",
+    "createdAt": "2024-02-06T10:30:00",
+    "updatedAt": "2024-02-10T10:30:00"
+  },
+  {
+    "id": "47",
+    "title": "Manguera Black & Decker Profesional",
+    "description": "Producto de alta calidad de la marca Black & Decker",
+    "price": 89.81,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-047-1.jpg",
+      "https://example.com/product-047-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 91,
+    "category": "Jardín",
+    "seller": {
+      "id": "seller047",
+      "name": "TechStore",
+      "rating": 4.0,
+      "reviews": 1067
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Black & Decker"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-047"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Black & Decker",
+    "createdAt": "2024-01-22T10:30:00",
+    "updatedAt": "2024-01-22T10:30:00"
+  },
+  {
+    "id": "48",
+    "title": "Carro Playmobil Control Remoto",
+    "description": "Producto Playmobil con diseño moderno y funcional",
+    "price": 28.63,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-048-1.jpg",
+      "https://example.com/product-048-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 31,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller048",
+      "name": "KeyboardPro",
+      "rating": 4.8,
+      "reviews": 2467
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Playmobil"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-048"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Playmobil",
+    "createdAt": "2024-01-19T10:30:00",
+    "updatedAt": "2024-01-26T10:30:00"
+  },
+  {
+    "id": "49",
+    "title": "Pantalón Levi's Casual",
+    "description": "Producto premium Levi's para uso profesional",
+    "price": 42.05,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-049-1.jpg",
+      "https://example.com/product-049-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 85,
+    "category": "Ropa",
+    "seller": {
+      "id": "seller049",
+      "name": "MobileWorld",
+      "rating": 4.7,
+      "reviews": 807
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Levi's"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-049"
+      },
+      {
+        "name": "Color",
+        "value": "Gris"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "Levi's",
+    "createdAt": "2024-02-01T10:30:00",
+    "updatedAt": "2024-02-02T10:30:00"
+  },
+  {
+    "id": "50",
+    "title": "Mesa IKEA Escritorio",
+    "description": "Producto premium IKEA para uso profesional",
+    "price": 340.81,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-050-1.jpg",
+      "https://example.com/product-050-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 18,
+    "category": "Muebles",
+    "seller": {
+      "id": "seller050",
+      "name": "KeyboardPro",
+      "rating": 4.7,
+      "reviews": 583
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "IKEA"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-050"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Plástico"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "IKEA",
+    "createdAt": "2024-01-26T10:30:00",
+    "updatedAt": "2024-02-02T10:30:00"
+  },
+  {
+    "id": "51",
+    "title": "Libro Random House Técnico",
+    "description": "Producto Random House con diseño moderno y funcional",
+    "price": 35.0,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-051-1.jpg",
+      "https://example.com/product-051-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 119,
+    "category": "Libros",
+    "seller": {
+      "id": "seller051",
+      "name": "CoffeeMaster",
+      "rating": 4.4,
+      "reviews": 1380
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Random House"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-051"
+      },
+      {
+        "name": "Color",
+        "value": "Blanco"
+      },
+      {
+        "name": "Material",
+        "value": "Madera"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Random House",
+    "createdAt": "2024-01-29T10:30:00",
+    "updatedAt": "2024-02-07T10:30:00"
+  },
+  {
+    "id": "52",
+    "title": "Juego Fisher-Price Mesa",
+    "description": "Producto de alta calidad de la marca Fisher-Price",
+    "price": 29.64,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-052-1.jpg",
+      "https://example.com/product-052-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 87,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller052",
+      "name": "GamingGear",
+      "rating": 4.9,
+      "reviews": 2124
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Fisher-Price"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-052"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Metal"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Fisher-Price",
+    "createdAt": "2024-01-25T10:30:00",
+    "updatedAt": "2024-02-02T10:30:00"
+  },
+  {
+    "id": "53",
+    "title": "Herramienta Castrol Profesional",
+    "description": "Producto Castrol con tecnología avanzada",
+    "price": 71.79,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-053-1.jpg",
+      "https://example.com/product-053-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 52,
+    "category": "Automotriz",
+    "seller": {
+      "id": "seller053",
+      "name": "MobileWorld",
+      "rating": 4.9,
+      "reviews": 1089
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "Castrol"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-053"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Tela"
+      },
+      {
+        "name": "Garantía",
+        "value": "2 años"
+      }
+    ],
+    "brand": "Castrol",
+    "createdAt": "2024-02-10T10:30:00",
+    "updatedAt": "2024-02-11T10:30:00"
+  },
+  {
+    "id": "54",
+    "title": "Cama IKEA King",
+    "description": "Producto IKEA con tecnología avanzada",
+    "price": 1680.0,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-054-1.jpg",
+      "https://example.com/product-054-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 7,
+    "category": "Muebles",
+    "seller": {
+      "id": "seller054",
+      "name": "AppleStore",
+      "rating": 4.3,
+      "reviews": 539
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "IKEA"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-054"
+      },
+      {
+        "name": "Color",
+        "value": "Rojo"
+      },
+      {
+        "name": "Material",
+        "value": "Vidrio"
+      },
+      {
+        "name": "Garantía",
+        "value": "1 años"
+      }
+    ],
+    "brand": "IKEA",
+    "createdAt": "2024-02-02T10:30:00",
+    "updatedAt": "2024-02-05T10:30:00"
+  },
+  {
+    "id": "55",
+    "title": "Puzzle LEGO 1000 Piezas",
+    "description": "Producto LEGO con diseño moderno y funcional",
+    "price": 15.59,
+    "currency": "USD",
+    "images": [
+      "https://example.com/product-055-1.jpg",
+      "https://example.com/product-055-2.jpg"
+    ],
+    "condition": "Nuevo",
+    "stock": 134,
+    "category": "Juguetes",
+    "seller": {
+      "id": "seller055",
+      "name": "OfficeMax",
+      "rating": 4.5,
+      "reviews": 1326
+    },
+    "specifications": [
+      {
+        "name": "Marca",
+        "value": "LEGO"
+      },
+      {
+        "name": "Modelo",
+        "value": "PRO-055"
+      },
+      {
+        "name": "Color",
+        "value": "Negro"
+      },
+      {
+        "name": "Material",
+        "value": "Aluminio"
+      },
+      {
+        "name": "Garantía",
+        "value": "3 años"
+      }
+    ],
+    "brand": "LEGO",
+    "createdAt": "2024-01-23T10:30:00",
+    "updatedAt": "2024-01-28T10:30:00"
+  }
+]
