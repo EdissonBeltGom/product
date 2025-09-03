@@ -93,7 +93,7 @@ data/
 
 1. **Clonar el repositorio**
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/EdissonBeltGom/product)
 cd product
 ```
 
